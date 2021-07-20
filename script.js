@@ -15,7 +15,7 @@ rightButton.onclick = function(){
     slider.style.transform='translateX(-'+dist+'%)';
 }
 leftButton.onclick = function(){
-    dist= (dist+100)%300;
+    dist= (dist+100)%(slider.children.length*100);
     console.log(rightButton);
     console.log(dist);
     slider.style.transform='translateX(-'+dist+'%)'
