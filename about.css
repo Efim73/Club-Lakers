@@ -1,0 +1,198 @@
+.phoneSection{
+    font-size: 40px;
+
+}
+body{
+    padding-top: 70px;
+}
+main{
+    background-color: rgb(230, 229, 223);
+    padding-bottom: 20px;
+}
+.p{
+    font-family: 'Open Sans', sans-serif;
+    border-left: 2px solid white;
+    padding: 0px 10px;
+    width: 60%;
+    margin: auto;
+    color: white;
+}
+.contact  h3{
+    font-size: 26px;
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+
+}
+.contact li{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 25px;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    padding-bottom: 25px;
+    list-style: none;
+}
+.contact{
+    width: 50%;
+    display: inline-block;
+    padding: 15px 0;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: left;
+    background-color: white;
+    padding: 10px 10px;
+    height: 400px;
+
+
+
+}
+.contact img{
+    width: 30px;
+}
+iframe{
+    display: inline-block;
+    /* float: right; */
+        vertical-align: middle;
+        width: 50%;
+}
+.bigContact{
+    /* height: 70%; */
+    /* overflow: hidden; */
+    text-align: center;
+    font-size: 0;
+
+
+}
+.worker{
+    width: 25%;
+    height: 90px;
+    display: inline-block;
+    margin: 10px 20px;
+    margin-bottom: 30px;
+    text-align: left;
+
+    /* background-color: tomato; */
+    font-family: 'Open Sans', sans-serif;
+}
+.img{
+    height: 90px;
+    border-radius: 45px;
+    display: inline-block;
+    width: 90px;
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+.worker div{
+    width: 60%;
+    display: inline-block;
+    /* float: right; */
+}
+.worker h4{
+    font-size:20px ;
+    margin-bottom: 3spx;
+    color: white;
+}
+.worker h5{
+    font-size: 20px;
+    margin-bottom: 4px;
+    color: white;
+}
+.worker p{
+    font-size: 15px;
+    margin-bottom:3px ;
+    color: white;
+
+}
+.worker p img{
+    width: 10px;
+    filter: invert(100%);
+    margin-right: 7px;
+}
+.contact a{
+    margin: 0 10px;
+    display: inline-block;
+
+}
+.container{
+    margin: auto;
+    margin-right: none;
+
+}
+.workers{
+    text-align: center;
+}
+  
+
+
+
+
+
+
+@media (max-width:600px){
+    .sectionTitle{
+        font-size: 30px;
+    }
+    .p{
+        width: 80%;
+        margin-bottom: 20px;
+
+        font-size: 15px;
+    }
+    .contact li{
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        font-size: 15px;
+    }
+    .contact{
+        height: auto;
+        width: 100%;
+        top: 0;
+        margin-top: 0;
+    }
+    .contact h3{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .contact img{
+        width: 25px;
+    }
+    .bigContact{
+        padding: 0px;
+        width: 95%;
+        margin: auto;
+    }
+    iframe{
+        height: 270px;
+        width: 100%;
+        top: 0;
+    }
+    .worker{
+        width: 75%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .worker h4{
+        font-size: 20px;
+        left: 0;
+        margin-left: 0px;
+        padding-left: 0px ;
+        display: inline-block;
+        margin-bottom: 6px;
+    }
+    .worker h5{
+        font-size: 15px;
+        left: 0;
+    }
+    .worker p{
+        font-size: 17px;
+        left: 0;
+    }
+    .worker p img{
+        width: 14px;
+    }
+    main{
+        padding-top: 2px;
+    }
+
+}
