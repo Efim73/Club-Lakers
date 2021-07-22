@@ -187,6 +187,7 @@ iframe{
     .worker p{
         font-size: 17px;
         left: 0;
+        color: white;
     }
     .worker p img{
         width: 14px;
