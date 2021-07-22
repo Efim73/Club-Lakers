@@ -201,7 +201,7 @@ header{
     object-fit: cover;
 }
 .slide:nth-child(3){
-    background-image: url('Lebron1.jpg');
+    background-image: url('lebron1.jpg');
     object-fit: cover;
 }
 .slide h2{
